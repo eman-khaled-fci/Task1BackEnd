@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EmanTask1.props" />
+</Project>
