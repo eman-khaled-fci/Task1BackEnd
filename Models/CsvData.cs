@@ -1,14 +1,8 @@
-
 namespace EmanTask1.Models
 {
-
-    public class CsvData
+    public class DynamicCsvData
     {
-        public int Id { get; set; }
-
-
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
+        public Dictionary<string, string> Values { get; set; } = new Dictionary<string, string>();
     }
+
 }
